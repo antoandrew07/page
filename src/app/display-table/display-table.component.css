@@ -3,28 +3,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
+    height: auto; 
+    
    
   }
-  
-  
   .table {
     height: 80%;
     width: 80%;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgb(255, 254, 254);
+    color: #ddd;
     
 }
   
   
-  .table thead th {
+  .table thead tr th {
     color: white;
     padding: 8px; 
     text-align: center; 
+    /* border: 1px solid #ddd;  */
   }
   
   
   .table tbody td {
     padding: 8px; 
-    border-bottom: 1px solid #ddd; 
+    border: 0.3px solid #ddd; 
     text-align: center;
   }
   .table tbody td:nth-child(3)
